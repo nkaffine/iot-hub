@@ -7,7 +7,7 @@ import json
 app = Flask(__name__)
 
 
-@app.route('/', methods=['GET'])
+@app.route('/')
 def hello_world():
     return "hello world"
 
